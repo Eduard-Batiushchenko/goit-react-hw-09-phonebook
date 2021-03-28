@@ -1,0 +1,46 @@
+.header {
+  background-color: blue;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+.item {
+  margin-right: 20px;
+}
+
+.selected {
+  color: orange;
+}
+
+.button {
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  background-color: grey;
+  width: 100px;
+  padding: 10px 5px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: blueviolet;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.link:hover {
+  color: orange;
+}
+.selected {
+  color: orange;
+}
+
+.title {
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+}

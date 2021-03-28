@@ -1,0 +1,62 @@
+.from {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-size: 15px;
+  width: 200px;
+  margin-top: 0;
+  outline: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: 1px solid gray;
+}
+
+.input:focus {
+  border-color: blueviolet;
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.button {
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  background-color: grey;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 5px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: orange;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: blueviolet;
+}
